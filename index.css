@@ -1,0 +1,47 @@
+body{
+	background-color: #EFF4F5;
+}
+.main{
+	display: flex;
+	justify-content: center;
+	margin-top: 15%;
+	margin-left: 35%;
+	width: 35%;
+	height: 40vh;
+	background-color: #EFF4F5;
+	box-shadow: 0px 0px 10px;
+}
+.box h1,h2{
+	text-align: center;
+}
+.box h2{
+		color: black;
+
+}
+.btns{
+	display: grid;
+	border-spacing: 30px;
+}
+.btn1,.btn2{
+	font-size: 20px;
+	text-align: center;
+	background-color: darkcyan;
+	color: white;
+}
+.btn1:hover{
+	cursor: pointer;
+	background-color: green;
+	color: white;
+	font-size: 15px;
+	font-family: sans-serif;
+	text-align: center;
+}
+.btn2:hover{
+	cursor: pointer;
+	background-color: red;
+	color: white;
+	font-size: 15px;
+	font-family: sans-serif;
+	text-align: center;
+}
+
